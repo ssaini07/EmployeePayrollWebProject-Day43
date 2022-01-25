@@ -68,4 +68,12 @@ class EmployeePayrollData {
         }
         this._startDate = startDate;
     }
+
+    //method to get values
+    toString() {
+
+        return "id : " + this._id + ", name : " + this._name + ", salary : " + this._salary + ", gender : " + this._gender +
+            ", date : " + this.startDate + ", profilepic : " + this._profilePic + ", department : " + this._department + ", note : " + this._note;
+
+    }
 }
