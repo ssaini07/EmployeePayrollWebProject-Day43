@@ -212,3 +212,22 @@ select {
         align-items: flex-start;
     }
 }
+
+a.button:hover {
+    background: grey;
+    color: white;
+}
+
+.submitButton:hover {
+    background-color: #82a70c;
+    color: white;
+}
+
+.resetButton:hover {
+    background: grey;
+    color: white;
+}
+
+.department {
+    margin-left: 30px;
+}
