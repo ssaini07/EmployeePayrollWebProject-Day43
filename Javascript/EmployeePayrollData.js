@@ -10,8 +10,9 @@ class EmployeePayrollData {
     }
 
     get name() {
-        return this._name;
-    }
+            return this._name;
+        }
+        /**UC 10 */
     set name(name) {
         let nameRegex = RegExp('^[A-z]{1}[a-z]{2,}$');
         if (nameRegex.test(name))
@@ -55,8 +56,9 @@ class EmployeePayrollData {
     }
 
     get startDate() {
-        return this._startDate;
-    }
+            return this._startDate;
+        }
+        /**UC 10 */
     set startDate(startDate) {
         let currentDate = new Date();
         if (startDate > currentDate) {
